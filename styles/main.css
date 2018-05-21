@@ -2236,6 +2236,7 @@ a.slido__text-link:hover {
   height: auto;
   border-radius: .125rem;
   border: none;
+  margin-top:8px;
 }
 .middle.aligned.content {
   padding-left: 1.5em;
