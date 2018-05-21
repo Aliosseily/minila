@@ -1,0 +1,1245 @@
+/*--------------------------------------------------------------------------
+
+	Project Name: sree - Coming Soon Template
+	Project Description: A simple and clean coming soon page made exclusively for ThemeForest market
+	File Name: main.scss
+	Author: ThemesEase
+	Author URI: http://themesease.com
+	Version: 1.0.0
+
+--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/* [TABLE OF CONTENTS]
+/*
+/*	1. VARIABLES & MIXINS
+/*	2. COMMON
+/*	3. BUTTONS & INPUTS
+/*	4. HEADER
+/*	5. SECTIONS
+/*	6. HEADLINE & TOP SECTION
+/*	7. COUNTDOWN
+/*	8. FEATURES, ABOUT & CONTACT SECTIONS
+/*	9. SWITCHER
+/*	10. SWEET-ALERT
+/*	11. MEDIA QUERIES
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/* 1. VARIABLES & MIXINS */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003594}}
+html, body {
+  font-family: "Maven Pro", serif;
+  font-weight: 300;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.75em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003594}}
+    html, body {
+      font-size: calc( 12px + (13 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003594}}
+    html, body {
+      font-size: 13px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003598}}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003609}}
+p, blockquote, pre,
+address,
+dl, ol, ul,
+table {
+  margin-bottom: 1.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003616}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Maven Pro", serif;
+  font-weight: 300;
+  color: #333;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003620}}
+h1 {
+  font-size: 24.39725px;
+  margin-top: 1.07594em;
+  line-height: 1.29113em;
+  margin-bottom: 0.21519em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003620}}
+    h1 {
+      font-size: calc( 24.39725px + (26.43036 - 24.39725) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003620}}
+    h1 {
+      font-size: 26.43036px;
+      margin-top: 1.07594em;
+      line-height: 1.29113em;
+      margin-bottom: 0.21519em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003624}}
+h2 {
+  font-size: 21.16942px;
+  margin-top: 1.24em;
+  line-height: 1.488em;
+  margin-bottom: 0.28314em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003624}}
+    h2 {
+      font-size: calc( 21.16942px + (22.93354 - 21.16942) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003624}}
+    h2 {
+      font-size: 22.93354px;
+      margin-top: 1.24em;
+      line-height: 1.488em;
+      margin-bottom: 0.28044em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003628}}
+h3 {
+  font-size: 18.36864px;
+  margin-top: 1.42907em;
+  line-height: 1.71488em;
+  margin-bottom: 0.33249em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003628}}
+    h3 {
+      font-size: calc( 18.36864px + (19.89936 - 18.36864) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003628}}
+    h3 {
+      font-size: 19.89936px;
+      margin-top: 1.42907em;
+      line-height: 1.71488em;
+      margin-bottom: 0.3289em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003632}}
+h4 {
+  font-size: 15.93841px;
+  margin-top: 1.64696em;
+  line-height: 1.97636em;
+  margin-bottom: 0.39139em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003632}}
+    h4 {
+      font-size: calc( 15.93841px + (17.26662 - 15.93841) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003632}}
+    h4 {
+      font-size: 17.26662px;
+      margin-top: 1.64696em;
+      line-height: 1.97636em;
+      margin-bottom: 0.38662em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003636}}
+h5 {
+  font-size: 13.82971px;
+  margin-top: 1.89809em;
+  line-height: 2.2777em;
+  margin-bottom: 0.37962em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003636}}
+    h5 {
+      font-size: calc( 13.82971px + (14.98219 - 13.82971) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003636}}
+    h5 {
+      font-size: 14.98219px;
+      margin-top: 1.89809em;
+      line-height: 2.2777em;
+      margin-bottom: 0.37962em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003640}}
+h6 {
+  font-size: 12px;
+  margin-top: 2.1875em;
+  line-height: 2.625em;
+  margin-bottom: 0.51042em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003640}}
+    h6 {
+      font-size: calc( 12px + (13 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003640}}
+    h6 {
+      font-size: 13px;
+      margin-top: 2.1875em;
+      line-height: 2.625em;
+      margin-bottom: 0.47396em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003644}}
+blockquote {
+  font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003459}}
+  blockquote cite {
+    display: block;
+    font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003648}}
+pre {
+  padding: 0.875em;
+  margin-bottom: 1.75em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003468}}
+  pre code {
+    padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003652}}
+code {
+  font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", "monospace";
+  padding: 0.0875em 0.2625em;
+  line-height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003656}}
+big, small, sub, sup {
+  line-height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003660}}
+abbr, acronym {
+  border-bottom: 1px dotted currentColor;
+  cursor: help; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003664}}
+address {
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003668}}
+dt {
+  color: #333;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003672}}
+ul {
+  padding-left: 1.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003676}}
+ol {
+  padding-left: 1.4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003680}}
+fieldset {
+  padding: 0.875em 1.75em 1.75em;
+  border-width: 1px;
+  border-style: solid;
+  max-width: 100%;
+  margin-bottom: 1.88462em; }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003680}}
+    fieldset {
+      margin-bottom: 2.01923em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003498}}
+  fieldset button, fieldset input[type="submit"] {
+    margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003684}}
+legend {
+  color: #333;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003688}}
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  display: block;
+  max-width: 100%;
+  padding: 0.4375em;
+  font-size: 12px;
+  margin-bottom: 1.34615em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003688}}
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      font-size: calc( 12px + (13 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003688}}
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      font-size: 13px;
+      margin-bottom: 0.55529em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003692}}
+input[type="submit"], button {
+  display: block;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0.4375em 1.75em;
+  margin-bottom: 1.11058em; }
+  @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003692}}
+    input[type="submit"], button {
+      font-size: calc( 12px + (13 - 12) * ((100vw - 600px) / (1140 - 600)) ); } }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003692}}
+    input[type="submit"], button {
+      font-size: 13px;
+      margin-bottom: 1.3125em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003696}}
+label {
+  display: block;
+  padding-bottom: 0.21875em;
+  margin-bottom: -0.10096em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003700}}
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-bottom: 2.42308em; }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003700}}
+    table {
+      margin-bottom: 2.15385em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003704}}
+th {
+  text-align: left;
+  color: #333;
+  padding: 0.21875em 0.875em; }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003704}}
+    th {
+      padding: 0.4375em 0.875em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003708}}
+td {
+  padding: 0.875em;
+  padding: 0.21875em 0.875em; }
+  @media (min-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/typographic\/scss\/typographic\.scss}line{font-family:\00003708}}
+    td {
+      padding: 0.4375em 0.875em; } }
+
+/* @include grid-overlay(red, 19); */
+/*--------------------------------------------------------------------------*/
+/* 2. COMMON */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000368}}
+body {
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000371}}
+.text-muted {
+  color: #730749; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_selection\.scss}line{font-family:\0000334}}
+::-moz-selection {
+  background-color: #730749;
+  color: #730749; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/Source\%20Files\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_selection\.scss}line{font-family:\0000338}}
+::selection {
+  background-color: #730749;
+  color: #730749; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000378}}
+ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000381}}
+a {
+  text-decoration: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000384}}
+.mbn {
+  margin-bottom: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000387}}
+.mb10 {
+  margin-bottom: 10px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000390}}
+.mb20 {
+  margin-bottom: 20px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000393}}
+.mb30 {
+  margin-bottom: 30px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000396}}
+.mb40 {
+  margin-bottom: 40px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\0000399}}
+.mb50 {
+  margin-bottom: 50px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003102}}
+.mb60 {
+  margin-bottom: 60px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003105}}
+.mtn {
+  margin-top: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003108}}
+.mt10 {
+  margin-top: 10px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003111}}
+.mt20 {
+  margin-top: 20px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003114}}
+.mt30 {
+  margin-top: 30px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003117}}
+.mt40 {
+  margin-top: 40px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003120}}
+.mt50 {
+  margin-top: 50px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003123}}
+.mt60 {
+  margin-top: 60px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003126}}
+.mln {
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003129}}
+.ml10 {
+  margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003132}}
+.ml20 {
+  margin-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003135}}
+.ml30 {
+  margin-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003138}}
+.ml40 {
+  margin-left: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003141}}
+.ml50 {
+  margin-left: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003144}}
+.ml60 {
+  margin-left: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003147}}
+.mrn {
+  margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003150}}
+.mr10 {
+  margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003153}}
+.mr20 {
+  margin-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003156}}
+.mr30 {
+  margin-right: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003159}}
+.mr40 {
+  margin-right: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003162}}
+.mr50 {
+  margin-right: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003165}}
+.mr60 {
+  margin-right: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003168}}
+.pbn {
+  padding-bottom: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003171}}
+.pb10 {
+  padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003174}}
+.pb20 {
+  padding-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003177}}
+.pb30 {
+  padding-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003180}}
+.pb40 {
+  padding-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003183}}
+.pb50 {
+  padding-bottom: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003186}}
+.pb60 {
+  padding-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003189}}
+.pb70 {
+  padding-bottom: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003192}}
+.pb80 {
+  padding-bottom: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003195}}
+.ptn {
+  padding-top: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003198}}
+.pt10 {
+  padding-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003201}}
+.pt20 {
+  padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003204}}
+.pt30 {
+  padding-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003207}}
+.pt40 {
+  padding-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003210}}
+.pt50 {
+  padding-top: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003213}}
+.pt60 {
+  padding-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003216}}
+.pt70 {
+  padding-top: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003219}}
+.pt80 {
+  padding-top: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003222}}
+.pt90 {
+  padding-top: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003225}}
+.pln {
+  padding-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003228}}
+.pl10 {
+  padding-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003231}}
+.pl20 {
+  padding-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003234}}
+.pl30 {
+  padding-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003237}}
+.pl40 {
+  padding-left: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003240}}
+.pl50 {
+  padding-left: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003243}}
+.pl60 {
+  padding-left: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003246}}
+.prn {
+  padding-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003249}}
+.pr10 {
+  padding-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003252}}
+.pr20 {
+  padding-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003255}}
+.pr30 {
+  padding-right: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003258}}
+.pr40 {
+  padding-right: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003261}}
+.pr50 {
+  padding-right: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003264}}
+.pr60 {
+  padding-right: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003267}}
+.underline {
+  position: relative;
+  padding-bottom: 0.667em;
+  margin-bottom: 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003271}}
+  .underline:after {
+    content: "";
+    width: 32px;
+    height: 1px;
+    background: #730749;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003281}}
+.full-underline::after {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003285}}
+.longer-underline::after {
+  width: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003289}}
+.text-center .underline::after {
+  width: 4%;
+  left: 48%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003293}}
+.text-center .longer-underline::after {
+  width: 8%;
+  left: 46%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003297}}
+p {
+  color: #730749; }
+
+/*--------------------------------------------------------------------------*/
+/* 3. BUTTONS & INPUTS */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003305}}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #730749;
+  color: #730749;
+  border: 1px solid #730749;
+  outline: none;
+  -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003312}}
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+  background-color: #730749;
+  color: #730749;
+  border-color: #730749;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003319}}
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: #730749;
+  color: #730749;
+  border-color: #730749;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003325}}
+.sr-btn {
+  display: inline-block;
+  margin: 0 0.3em;
+  padding: 0.1 0.1em;
+  min-height: 3.375em;
+  outline: none;
+  color: #f2f2f2;
+  border: 1px solid #730749;
+  -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003335}}
+  .sr-btn:hover {
+    background-color: #730749;
+    color: #730749;
+    border-color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003340}}
+  .sr-btn:active {
+    background-color: #730749;
+    color: #730749;
+    border-color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003345}}
+  .sr-btn .icon {
+    font-size: 1.5em;
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003349}}
+  .sr-btn.white-btn {
+    color: #f2f2f2;
+    border-color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003353}}
+    .sr-btn.white-btn:hover {
+      background-color: #2b031b;
+      color: #730749;
+      border-color: #2b031b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003358}}
+    .sr-btn.white-btn:active {
+      background-color: #2b031b;
+      color: #730749;
+      border-color: #2b031b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003365}}
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+  border: 0px;
+  min-height: 3.375em;
+  width: 50%;
+  padding: 0 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003372}}
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
+  border: 0px;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003378}}
+input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
+  border: 0px; }
+
+/*--------------------------------------------------------------------------*/
+/* 4. HEADER */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003387}}
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 20px 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 101; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003394}}
+  .header img {
+    height: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003399}}
+.light-header .dark-logo {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003404}}
+.dark-header .dark-logo {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003408}}
+.social-btn {
+  color: #fff;
+  font-size: 3em;
+  margin: 10px;
+  line-height: 40px;
+  transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003414}}
+  .social-btn:hover {
+    color: #323232; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003421}}
+.fp-viewing-purpose-anchor.light-header .header, .fp-viewing-programs-anchor.light-header .header, .fp-vieweing-team-anchor.light-header .header, .fp-vieweing-opportunities-anchor.light-header .header, .fp-vieweing-contact-anchor.light-header .header {
+  background: #fff;
+  height: 65px;
+  padding: 5px 0px;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003427}}
+.fp-viewing-purpose-anchor.light-header .social-btn, .fp-viewing-programs-anchor.light-header .social-btn, .fp-vieweing-team-anchor.light-header .social-btn, .fp-vieweing-opportunities-anchor.light-header .social-btn, .fp-vieweing-contact-anchor.light-header .social-btn {
+  color: #323232; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003429}}
+  .fp-viewing-purpose-anchor.light-header .social-btn:hover, .fp-viewing-programs-anchor.light-header .social-btn:hover, .fp-vieweing-team-anchor.light-header .social-btn:hover, .fp-vieweing-opportunities-anchor.light-header .social-btn:hover, .fp-vieweing-contact-anchor.light-header .social-btn:hover {
+    color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003433}}
+.fp-viewing-purpose-anchor.light-header .light-logo, .fp-viewing-programs-anchor.light-header .light-logo, .fp-vieweing-team-anchor.light-header .light-logo, .fp-vieweing-opportunities-anchor.light-header .light-logo, .fp-vieweing-contact-anchor.light-header .light-logo {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003436}}
+.fp-viewing-purpose-anchor.light-header .dark-logo, .fp-viewing-programs-anchor.light-header .dark-logo, .fp-vieweing-team-anchor.light-header .dark-logo, .fp-vieweing-opportunities-anchor.light-header .dark-logo, .fp-vieweing-contact-anchor.light-header .dark-logo {
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003441}}
+.fp-viewing-purpose-anchor.dark-header .header, .fp-viewing-programs-anchor.dark-header .header, .fp-vieweing-team-anchor.dark-header .header, .fp-vieweing-opportunities-anchor.dark-header .header, .fp-vieweing-contact-anchor.dark-header .header {
+  background: #323232;
+  height: 50px;
+  padding: 5px 0px;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003447}}
+.fp-viewing-purpose-anchor.dark-header .social-btn, .fp-viewing-programs-anchor.dark-header .social-btn, .fp-vieweing-team-anchor.dark-header .social-btn, .fp-vieweing-opportunities-anchor.dark-header .social-btn, .fp-vieweing-contact-anchor.dark-header .social-btn {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003449}}
+  .fp-viewing-purpose-anchor.dark-header .social-btn:hover, .fp-viewing-programs-anchor.dark-header .social-btn:hover, .fp-vieweing-team-anchor.dark-header .social-btn:hover, .fp-vieweing-opportunities-anchor.dark-header .social-btn:hover, .fp-vieweing-contact-anchor.dark-header .social-btn:hover {
+    color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003453}}
+.fp-viewing-purpose-anchor.dark-header .dark-logo, .fp-viewing-programs-anchor.dark-header .dark-logo, .fp-vieweing-team-anchor.dark-header .dark-logo, .fp-vieweing-opportunities-anchor.dark-header .dark-logo, .fp-vieweing-contact-anchor.dark-header .dark-logo {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003456}}
+.fp-viewing-purpose-anchor.dark-header .light-logo, .fp-viewing-programs-anchor.dark-header .light-logo, .fp-vieweing-team-anchor.dark-header .light-logo, .fp-vieweing-opportunities-anchor.dark-header .light-logo, .fp-vieweing-contact-anchor.dark-header .light-logo {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003463}}
+.fixed-header.light-header .header {
+  background: #fff;
+  height: 50px;
+  padding: 5px 0px;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003469}}
+.fixed-header.light-header .social-btn {
+  color: #323232; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003471}}
+  .fixed-header.light-header .social-btn:hover {
+    color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003475}}
+.fixed-header.light-header .light-logo {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003478}}
+.fixed-header.light-header .dark-logo {
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003483}}
+.fixed-header.dark-header .header {
+  background: #323232;
+  height: 50px;
+  padding: 5px 0px;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003489}}
+.fixed-header.dark-header .social-btn {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003491}}
+  .fixed-header.dark-header .social-btn:hover {
+    color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003495}}
+.fixed-header.dark-header .dark-logo {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003498}}
+.fixed-header.dark-header .light-logo {
+  display: inline-block; }
+
+/*--------------------------------------------------------------------------*/
+/* 5. SECTIONS */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003508}}
+.content-section:nth-of-type(even) {
+  background-color: #f2f2f2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003511}}
+.content-section:nth-of-type(odd) {
+  background-color: #730749; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003514}}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: rgba(0, 0, 0, 0.7);
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003522}}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.7); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003533}}
+#fp-nav ul li .fp-tooltip {
+  font-family: "Maven Pro", serif;
+  top: -8px;
+  color: #424242; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003538}}
+.section-title {
+  margin-bottom: 2.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003540}}
+  .section-title p {
+    color: black; }
+
+/*--------------------------------------------------------------------------*/
+/* 6. HEADLINE & HEAD SECTION */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003549}}
+.particles-div {
+  background-color: #2b031b;
+  background-image: -webkit-linear-gradient(#2b031b, #730749);
+  background-image: linear-gradient(#2b031b, #730749);
+  position: relative;
+  z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003553}}
+  .particles-div canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003562}}
+.headline {
+  color: #730749;
+  font-size: 3em;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003568}}
+  .headline small {
+    text-transform: capitalize;
+    font-size: 0.6em;
+    display: block;
+    padding-top: 1em;
+    color: #730749; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003576}}
+.static-img-div {
+  background: url(../images/mac_cs.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right top;
+  transition: all 0.6s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003584}}
+.solid-color-div {
+  background-color: #730749 !important;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003587}}
+  .solid-color-div .bg-icon {
+    font-size: 38.443em;
+    animation-duration: 3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003592}}
+.gradient-div {
+  background-color: #43042a;
+  background-image: -webkit-linear-gradient(#43042a, #730749);
+  background-image: linear-gradient(#43042a, #730749);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003595}}
+  .gradient-div .bg-icon {
+    font-size: 38.443em;
+    animation-duration: 3s; }
+
+/*IE FIX FOR particles-div */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003602}}
+.particles-div .content {
+  position: relative;
+  z-index: 5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003606}}
+.particles-div canvas {
+  z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003610}}
+.content-section {
+  position: relative;
+  z-index: 5; }
+
+/*--------------------------------------------------------------------------*/
+/* 7. COUNTDOWN */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003619}}
+.countdown {
+  background: transparent;
+  color: #730749;
+  border: 0px;
+  margin-top: 2.25em;
+  font-size: 1em;
+  font-weight: 400 !important;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003627}}
+  .countdown span {
+    font-size: 3.375em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003630}}
+  .countdown .countdown-section {
+    border-left: 1px dashed rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003637}}
+  .countdown .countdown-section:last-child {
+    border-right: 1px dashed rgba(0, 0, 0, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003641}}
+.notify-div {
+  margin-top: 1em;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003644}}
+  .notify-div input {
+    display: inline-block; }
+
+/*--------------------------------------------------------------------------*/
+/* 8. FEATURES, ABOUT & CONTACT SECTIONS */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003654}}
+.bg-icon {
+  position: absolute;
+  font-size: 25.629em;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.2;
+  top: -30px;
+  right: -25px;
+  transform: rotate(0deg);
+  -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003664}}
+.feature-left-icon {
+  background: #730749;
+  padding: 1em 0;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003668}}
+  .feature-left-icon .icon {
+    color: #730749;
+    font-size: 5.063em;
+    width: 80px;
+    display: inline-block;
+    transition: all 0.6s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003675}}
+  .feature-left-icon p {
+    color: #5b063a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003678}}
+  .feature-left-icon .feature-title {
+    margin-top: 0px;
+    color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003682}}
+  .feature-left-icon .bg-icon {
+    font-size: 17.086em;
+    top: 5px;
+    right: -5px;
+    -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003688}}
+  .feature-left-icon:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    top: -4px;
+    left: -4px;
+    border-width: 2px 0 0 2px !important;
+    -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003699}}
+  .feature-left-icon:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    bottom: -4px;
+    right: -4px;
+    border-width: 0 2px 2px 0 !important;
+    -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003711}}
+  .feature-left-icon:hover:before {
+    width: 80%;
+    height: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003715}}
+  .feature-left-icon:hover::after {
+    width: 80%;
+    height: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003719}}
+  .feature-left-icon:hover .bg-icon {
+    font-size: 25.629em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003724}}
+.sr-box {
+  background: #323232;
+  padding: 2em;
+  color: #730749;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003729}}
+  .sr-box h4 {
+    color: #730749; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003732}}
+  .sr-box p {
+    color: #13010c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003735}}
+  .sr-box:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #323232;
+    top: -4px;
+    left: -4px;
+    border-width: 2px 0 0 2px !important;
+    -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003746}}
+  .sr-box:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #323232;
+    bottom: -4px;
+    right: -4px;
+    border-width: 0 2px 2px 0 !important;
+    -webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003758}}
+  .sr-box:hover:before {
+    width: 80%;
+    height: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003762}}
+  .sr-box:hover::after {
+    width: 80%;
+    height: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003766}}
+  .sr-box:hover .bg-icon {
+    font-size: 38.443em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003772}}
+.content-section .social-btn {
+  color: #730749 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003776}}
+.contact-us-form input, .contact-us-form textarea {
+  margin-bottom: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003779}}
+.intro-para p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center; }
+
+/*--------------------------------------------------------------------------*/
+/* 9. SWITCHER */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003788}}
+.switcher {
+  position: fixed;
+  top: 100px;
+  padding: 20px;
+  left: -200px;
+  background: #323232;
+  width: 200px;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003797}}
+  .switcher .handle {
+    position: absolute;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    color: #f2f2f2;
+    font-size: 26px;
+    line-height: 40px;
+    background: #323232;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003811}}
+  .switcher p {
+    color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003814}}
+  .switcher h5 {
+    font-size: 14px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003818}}
+  .switcher .color {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003825}}
+  .switcher .alizarin {
+    background: #e74c3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003828}}
+  .switcher .torquoise {
+    background: #1abc9c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003831}}
+  .switcher .sunflower {
+    background: #f1c40f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003834}}
+  .switcher .carrot {
+    background: #e67e22; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003837}}
+  .switcher .peterriver {
+    background: #3498db; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003840}}
+  .switcher .wisteria {
+    background: #8e44ad; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003843}}
+  .switcher .nephritis {
+    background: #27ae60; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003846}}
+  .switcher .midnightblue {
+    background: #2c3e50; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003849}}
+  .switcher .switch-header {
+    padding: 5px 10px;
+    border: 1px solid #f2f2f2;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003859}}
+  .switcher p {
+    font-size: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003861}}
+    .switcher p a {
+      color: #fff;
+      transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003864}}
+      .switcher p a:hover {
+        color: #730749; }
+
+/*--------------------------------------------------------------------------*/
+/* 10. SWEET ALERT */
+/*--------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003875}}
+.sweet-alert {
+  border-radius: 0px;
+  font-family: "Maven Pro", serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003878}}
+  .sweet-alert button, .sweet-alert input[type="button"], .sweet-alert input[type="reset"], .sweet-alert input[type="submit"] {
+    border-left-color: #730749 !important;
+    border-right-color: #730749 !important;
+    background-color: #730749 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003884}}
+.sweet-alert button.styled {
+  border-radius: 0px;
+  margin: auto; }
+
+/*--------------------------------------------------------------------------*/
+/* 11. MEDIA QUERIES */
+/*--------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003894}}
+  .headline {
+    font-size: 3.375em !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003897}}
+  .feature-left-icon {
+    margin-bottom: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/minila\%20-\%20Copy\/HTML\/styles\/main-cs\.scss}line{font-family:\00003900}}
+  .sr-box {
+    margin-bottom: 2em; } }

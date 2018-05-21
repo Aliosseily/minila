@@ -1,0 +1,84 @@
+[28-Aug-2017 09:42:04 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[28-Aug-2017 21:34:34 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[29-Aug-2017 00:04:17 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[29-Aug-2017 04:33:08 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[06-Sep-2017 04:30:31 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[06-Sep-2017 05:43:37 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[11-Sep-2017 07:47:09 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[13-Sep-2017 07:12:53 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[16-Sep-2017 09:55:10 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[26-Sep-2017 10:40:23 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[30-Sep-2017 07:24:10 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
+[16-Oct-2017 00:28:04 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Common\Exception\InvalidArgumentException' with message 'Unable to open  for reading' in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php:53
+Stack trace:
+#0 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php(28): Guzzle\Http\Message\PostFile->setFilename('@')
+#1 /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/EntityEnclosingRequest.php(199): Guzzle\Http\Message\PostFile->__construct('attachment', '@', NULL, NULL)
+#2 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(52): Guzzle\Http\Message\EntityEnclosingRequest->addPostFile('attachment', '@', NULL, NULL)
+#3 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('minila.org/mess...', Array, Array)
+#4 /home/minila/public_html/Mailgun/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->po in /home/minila/public_html/Mailgun/vendor/guzzle/guzzle/src/Guzzle/Http/Message/PostFile.php on line 53
