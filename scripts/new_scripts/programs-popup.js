@@ -18,7 +18,7 @@ function mapProjects() {
       Partner:  "Min ila",
       ImplementationPeriod:  "April 1, 2018 - Ongoing",
       photo: "images/projects/Lika.jpg",
-      gallery:""
+      gallery:"https://photos.app.goo.gl/X3FtXQeppha9vJKL2"
 
     },
     {
@@ -30,7 +30,7 @@ function mapProjects() {
       ImplementingPartners: " Development and Beyond, The Chain Effect and Frame",
       ImplementationPeriod:  "January 25, 2017 - November 25, 2017",
       photo: "images/projects/CETAS.jpg",
-      gallery: ''
+      gallery: 'https://photos.app.goo.gl/6xwlETHU8CB3uP082'
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ function mapProjects() {
       ImplementingPartners:  "Min ila and Sawiian",
       ImplementationPeriod:  "October 1, 2016 - September 30, 2017",
       photo: "images/projects/Educating for Peace.jpg",
-      gallery:""
+      gallery:"https://photos.app.goo.gl/ddgnB4dj3KPhdXV52"
     }
 
 

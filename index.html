@@ -71,21 +71,28 @@
   <!-- ========== HEADER ========== -->
 
 <div class="main-container" id="fullpage">
+  
     <div class="mavo-slider" mv-bar="save edit" mv-app='slider' mv-storage='local'>
         <div class="slider">
           <img class="mySlides size" src="[URL1]">
           <img class="mySlides size" src="[URL2]">
           <img class="mySlides size" src="[URL3]">
+          <img class="mySlides size" src="[URL4]">
+          <img class="mySlides size" src="[URL5]">
+          
           <button class="w3-button w3-black w3-display-left slider-arrows" onclick="plusDivs(-1)">&#10094;</button>
           <button class="w3-button w3-black w3-display-right slider-arrows1" onclick="plusDivs(1)">&#10095;</button>
         </div>
         <div id="mavo-slider" >
             <p>first photo URL</p><div property='URL1'>./images/img_la.jpg</div>
             <p>second photo URL</p><div property='URL2'>./images/img_ny.jpg</div>
-            <p>third photo URL</p><div property='URL3'>./images/img_chicago.jpg</div>
+            <p>third photo URL</p><div property='URL3'>./images/img_chi.jpg</div>
+            <p>forthphoto URL</p><div property='URL4'>./images/img_c.jpg</div>
+            <p>fifth photo URL</p><div property='URL5'>./images/img_ch.jpg</div>
+            
+            
         </div>
     </div>
-
 
 
 
@@ -99,7 +106,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#home-anchor">
+        <a class="navbar-brand" href="#">
           <img src="images/new-logo1.png" data-active-url="images/new-logo.png" alt="">
         </a>
 
@@ -123,33 +130,41 @@
           <li >
             <a href="#contact" class="social-btn">Contact</a>
           </li>
+              
+            
           <li data-menuanchor="">
-            <div class="box">
-              <a class="button" href="#popup1">Donate</a>
-            </div>
-
-            <div id="popup1" class="overlay">
-              <div class="popup">
-                <a class="close" href="#">&times;</a>
-                <div class="content">
-                  <p>
-                    <br/>
-                    <strong>Account Name:</strong> Organization Min…ila…
-                    <br>
-                    <strong>Bank Name: </strong>
-                    <a href="https://www.bbacbank.com/locate-us">BBAC (all branches)</a>
-                    <br>
-                    <strong>IBAN Number: </strong>LB51 0028 0000 0000 0405 7120 8210
-                    <br>
-                    <strong>SWIFT: </strong>BBACLBBX
-                    <br>
-                    <strong>Currency: </strong>US Dollars
-                  </p>
-                </div>
-              </div>
-            </div>
+            <!-- Modal -->
+<div class="modale" aria-hidden="true">
+    <div class="modal-dialogs">
+      <div class="modal-header">
+        <a href="#" class="btn-close closemodale" aria-hidden="true">&times;</a>
+      </div>
+      <div class="modal-body">
+          <div class="mb30">
+              <p>
+                <strong>Account Name:</strong> Organization Min…ila…
+                <br>
+                <strong>Bank Name: </strong><a href = "https://www.bbacbank.com/locate-us">BBAC (all branches)- بنك بيروت و البلاد العربية </a>
+                <br>
+                <strong>IBAN Number: </strong>LB51 0028 0000 0000 0405 7120 8210
+                <br>
+                <strong>SWIFT: </strong>BBACLBBX
+                <br>
+                <strong>Currency: </strong>US Dollars
+                <br>
+              </p>
+            </div>      <div class="modal-footer">
+    
+  
+      </div>
+    </div>
+  </div>
+  <!-- /Modal -->
+  
+    <p><a href="#" class="btn btn-big openmodale">Donate</a></p>
           </li>
-
+          <a style="position:relative ; top:23px ; left:34px" href="./arabic.html">العربية </a>
+          
         </ul>
       </div>
     </div>
@@ -321,8 +336,8 @@
     
             <!-- ========== section TITLE ========== -->
             <div class="row">
-              <div class="col-md-10 col-md-offset-1 text-center section-title">
-                <h3 class="underline longer-underline">Programs</h3>
+              <div class="col-md-10 col-md-offset-1 text-center sect;ion-title">
+                <h3 class="underline longer-underline" >Programs</h3>
                 <p property='programsDescriptio' >Our passion is revolved around the innovation of citizenship education and its learning processes. Our three
                   programs – Formal and Non-Formal Education and an Employability and Vocational Program - are revolved around
                   teaching our students a wide array of skills. Citizenship Education is a dedication that aims to teaching new
@@ -435,8 +450,10 @@
                     <h3 class="underline longer-underline">Team</h3>
                     <p property='teamDesc'>Min ila is proudly governed by a Board of Directors that is elected every two years by our General Assembly. The rest of the team consists of our dedicated interns that always have an important role to play in the development of our organization. Supported by generous people who have become our partners, the team is the backbone of the organization that keeps us striving for more.</p>
                 </div> 
-                     <a  class="groupteamimave-btn" href="./team.html">View Team</a>
+                <div class = "teamimage">
+                <a  class="groupteamimave-btn" href="./team.html">View Team</a>
                 <img src=[URL] alt="" class="groupteamimage">
+              </div>
                 <!-- end .section-title -->
             </div> <!-- end row -->          <!-- ========== section TITLE ========== -->
             
@@ -457,7 +474,7 @@
 
 
     <!-- ========== SECTION TITLE ========== -->
-    
+    <section class = "contributors-container">
     <div class="row partners" id = "contributors">
       <div class="col-md-6 col-md-offset-3 text-center section-title">
         <h3 class="underline longer-underline">Contributors </h3>
@@ -750,7 +767,7 @@
 
 </div>
 
-
+</section>
 
 
 
@@ -902,18 +919,25 @@
                   </a>
                 </p>
               </div>
+              <section id = "careers">
   <div class="col-md-4 col-sm-4 kol">
+    <div id = "careers">
+      <div class="mavo-careers" mv-bar="save edit" mv-app='careers' mv-storage='local' >
+          
     <h5 class="underline">
       <a target="_blank" class="social-btn">
 <img src='./images/bagage1.png' class='jobicon' style="position: relative;right: 5px;">
       </a> Careers</h5>
-    <div class='display mb50'>
-      <a class="atag" data-toggle="modal" data-target="#email-job" data-job="Communications and Media Intern - YEP" type="button">
-         Communications and Media Intern
+    <div class='display mb50' >
+      <a mv-multiple class="atag" data-toggle="modal" data-target="#email-job" data-job=[careers] type="button">
+         <p property='careers'>Communications and Media Intern</p>
       </a>
       
     </div>
+    </div>
   </div>
+  </div>
+</section>
   <div class="mavo-contactus2" mv-bar="save edit" mv-app='contactus2' mv-storage='local' >
       <div class="col-md-4 col-sm-4 kol" >
         <h5 class="underline">
@@ -979,7 +1003,7 @@
         <!-- end row -->
 
         <div>
-          <a href="#home-anchor">
+          <a  href="#">
             <img class="bottomlogo" src="./images/new-logo.png" data-active-url="images/new-logo.png" alt="">
           </a><br>
           <span> Site Built By
@@ -990,6 +1014,7 @@
               <img src="./images/codilogo.png" width="30px" style="margin:5px"/>
             </a>
         </span>
+        <div style="float:right"><p>من الى 2017. كافة الحقوق محفوظة. حقوق النشر </p></div>
         <div id='mavo-login-render'></div> 
 </div>
         
@@ -1554,7 +1579,7 @@
                   <label>Email:</label>
                   <input type="email" name="email" value="" placeholder="Enter Your Email Id..." required="" />
                   <label>Subject:</label>
-                  <input id="subject" type="text" name="subject" value="" placeholder="Enter Your Subject..." required="" />
+                  <input disabled id="subject" type="text" name="subject" value="" placeholder="Enter Your Subject..." required="" />
                   <label>Message:</label>
                   <textarea name="message" placeholder="Enter Your Message..." required="" rows="5"></textarea>
 
