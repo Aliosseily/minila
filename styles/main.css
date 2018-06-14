@@ -30,9 +30,9 @@
   height: 321px;
 }
 .col-lg-3 {
-  width: 30%;
-  padding-left: 40px;
-  padding-right: 30px;
+    width: 30%;
+    padding-left: 104px;
+    padding-right: 14px;
 }
 .row.members-2.row-centered {
   /* margin-left: 178px; */
@@ -2538,4 +2538,7 @@ text-align: left
 .modal-footer{
   padding:0;
   border:none
+}
+img.mySlides.size {
+  padding: 60px;
 }
