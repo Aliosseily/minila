@@ -30,10 +30,12 @@
   height: 321px;
 }
 .col-lg-3 {
-  width: 26%;
+    width: 30%;
+    padding-left: 104px;
+    padding-right: 14px;
 }
 .row.members-2.row-centered {
-  margin-left: 178px;
+  /* margin-left: 178px; */
   display: block;
   
 }
@@ -1317,8 +1319,9 @@ div[data-toggle="modal"] {
 
   @media (max-width: 600px)  {
     .col-lg-3{
+      padding: 0px;
       width:200px;
-      margin-left: -120px;
+     margin-left: 70px;
       clear: both; 
        } }
 
