@@ -50,10 +50,11 @@ function mapProjects() {
 
   ]
   for (i = 0; i < projectsList.length; i++) {
+    if (projectsList[i].Budget || projectsList[i].Donor || projectsList[i].ImplementingPartners){
     projectsRendered += `
-      <div class="ui items">
+      <div  class="ui items">
         <div class="item projects">
-          <div class="ui small image">
+          <div class="ui small image" style="margin-left: 1.5em;">
             <img src="`+ projectsList[i].photo + `">
           </div>
           <div class="middle aligned content">
@@ -61,7 +62,7 @@ function mapProjects() {
               `+ projectsList[i].title + `
             </div>
             <div class="description">
-              <p>`+ projectsList[i].description + '<br><br>' + ' <b>ميزانية المشروع:</b> ' + projectsList[i].Budget + '<br/> <b>الممول:</b>' + projectsList[i].Donor + '<br/> <b>الشريك الرئيسي:</b>' + projectsList[i].Partner + '<br/> <b>شركة المشروع:</b>' + projectsList[i].ImplementingPartners + '<br/> <b>وقت التنفيذ:</b>' + projectsList[i].ImplementationPeriod + `</p>
+              <p class="arabic">`+ projectsList[i].description + '<br><br>' + ' <b>ميزانية المشروع:</b> ' + projectsList[i].Budget + '<br/> <b>الممول:</b>' + projectsList[i].Donor + '<br/> <b>الشريك الرئيسي:</b>' + projectsList[i].Partner + '<br/> <b>شركة المشروع:</b>' + projectsList[i].ImplementingPartners + '<br/> <b>وقت التنفيذ:</b>' + projectsList[i].ImplementationPeriod + `</p>
             </div>
             
             
@@ -73,13 +74,39 @@ function mapProjects() {
           </div>
         </div>
       </div>
-      `
+      `}
+      else{
+        projectsRendered += `
+        <div  class="ui items">
+          <div class="item projects">
+            <div class="ui small image" style="margin-left: 1.5em;">
+              <img src="`+ projectsList[i].photo + `">
+            </div>
+            <div class="middle aligned content">
+              <div class="header">
+                `+ projectsList[i].title + `
+              </div>
+              <div class="description">
+                <p class="arabic">`+ projectsList[i].description + '<br><br>'+ '<br/> <b>الشريك الرئيسي:</b>' + projectsList[i].Partner + '<br/> <b>وقت التنفيذ:</b>' + projectsList[i].ImplementationPeriod + `</p>
+              </div>
+              
+              
+              <div class="extra">
+                <a href=`+projectsList[i].gallery+`>
+                  <button class="btn white-btn">الصور</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        `
+      }
   }
 }
 
 function renderNow() {
   Header = `<h4>الأهداف</h4>
-            <p>
+            <p class="arabic">
             من إلى تسعى الى تمتين ودعم العلاقات مع وزارة التربية والتعليم العالي فيما يتعلق بالتربية المدنية بالمناهج الرسمية. إننا نتصور منهاجاً يؤسس ويعزز التربية المدنية بالتعليم الرسمي من خلال طرق تفاعلية جماعية ومبتكرة. بالتعاون مع الوزارة، نهدف لإلهام التلاميذ بالانخراط بهذا الموضوع على مستوى جديد. هذا قد يؤدي لتطبيق فعال للتربية المدنية بالمنهاج الوطني الذي يمهد الطريق للأجيال المستقبلية. </p>
             <h4>المشاريع</h4>`
   mapProjects();

@@ -13,7 +13,7 @@ function mapProjects() {
   var projectsList = [
     {
       id: 1,
-      title: 'Lika',
+      title: "Lika'",
       description: "The project aims to shed the light on critical issues and causes in this country, in order to discuss them and raise awareness around them and ultimately fight for them. It is through a gathering “Lika’” that these issues are discussed among participants coming from all over the country.",
       Partner:  "Min ila",
       ImplementationPeriod:  "April 1, 2018 - Ongoing",
@@ -27,6 +27,7 @@ function mapProjects() {
       description: "The project aims at promoting civic knowledge and civic engagement for disadvantaged youth coming from three public schools: Aley, Beit Chabeb and Saida. This project created the opportunity for them to explore new activities as well as express themselves through creative and alternative mediums, such as photography documentation, street art, basketball and city cycling ",
       Donor: "The Embassy of Switzerland in Lebanon",
       Partner:  "Min ila",
+      Budget: '27,000$',
       ImplementingPartners: " Development and Beyond, The Chain Effect and Frame",
       ImplementationPeriod:  "January 25, 2017 - November 25, 2017",
       photo: "images/projects/CETAS.jpg",
@@ -49,18 +50,44 @@ function mapProjects() {
 
   ]
   for (i = 0; i < projectsList.length; i++) {
-    projectsRendered += `
+    if (projectsList[i].Budget || projectsList[i].Donor || projectsList[i].ImplementingPartners){
+      projectsRendered += `
+        <div class="ui items">
+          <div class="item projects">
+            <div class="ui small image">
+              <img src="`+ projectsList[i].photo + `">
+            </div>
+            <div class="middle aligned content">
+              <div class="header" style="color:black;">
+                `+ projectsList[i].title + `
+              </div>
+              <div class="description">
+                <p>`+ projectsList[i].description + '<br><br>' + ' <b>Budget: </b> ' + projectsList[i].Budget + '<br/> <b>Donor: </b>' + projectsList[i].Donor + '<br/> <b>Lead Partner: </b>' + projectsList[i].Partner + '<br/> <b>Implementing Partners: </b>' + projectsList[i].ImplementingPartners + '<br/> <b>Implementing Period: </b>' + projectsList[i].ImplementationPeriod + `</p>
+              </div>
+              
+              
+              <div class="extra">
+                <a href=`+projectsList[i].gallery+`>
+                  <button class="btn white-btn">Photos</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        `
+    }else{
+      projectsRendered += `
       <div class="ui items">
         <div class="item projects">
           <div class="ui small image">
             <img src="`+ projectsList[i].photo + `">
           </div>
           <div class="middle aligned content">
-            <div class="header">
+            <div class="header" style="color:black;">
               `+ projectsList[i].title + `
             </div>
             <div class="description">
-              <p>`+ projectsList[i].description + '<br><br>' + ' <b>Buddget:</b> ' + projectsList[i].Budget + '<br/> <b>Donor:</b>' + projectsList[i].Donor + '<br/> <b>Lead Partner:</b>' + projectsList[i].Partner + '<br/> <b>Implementing Partners:</b>' + projectsList[i].ImplementingPartners + '<br/> <b>Implementing Period:</b>' + projectsList[i].ImplementationPeriod + `</p>
+              <p>`+ projectsList[i].description + '<br>' + '<br/> <b>Lead Partner: </b>' + projectsList[i].Partner  + '<br/> <b>Implementing Period: </b>' + projectsList[i].ImplementationPeriod + `</p>
             </div>
             
             
@@ -73,6 +100,7 @@ function mapProjects() {
         </div>
       </div>
       `
+    }
   }
 }
 
